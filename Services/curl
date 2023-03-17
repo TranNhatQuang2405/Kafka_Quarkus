@@ -1,0 +1,9 @@
+### 
+curl -X 'POST' \
+  'http://localhost:8080/gas' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "Xăng Giả Đó MÁ",
+  "price": 222222666
+}
